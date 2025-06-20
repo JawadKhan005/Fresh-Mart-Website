@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FreshMart | Products</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+
+  <div class="wrapper d-flex flex-column min-vh-100">
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-success" href="/Website/Home.html">FreshMart</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="/Website/Home.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="/Website/Product_List.html">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="/Website/About.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="/Website/Contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="/Website/Cart.html">Cart</a></li>
+        <li class="nav-item"><a class="nav-link text-danger" href="/Website/Home.html">Logout</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <!-- Products Section -->
+  <section class="products py-5">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-4">Our Products</h2>
+      <div class="row g-4">
+
+        <!-- Product Cards -->
+        <!-- Product 1 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="/Website/fresh fruits" class="card-img-top" alt="Fresh Fruits">
+            <div class="card-body">
+              <h5 class="card-title">Fresh Fruits</h5>
+              <p class="card-text">Seasonal and juicy fruits direct from farms.</p>
+              <input type="number" class="form-control mb-2 quantity-input" value="1" min="1" />
+              <button class="btn btn-success add-to-cart" data-id="1" data-name="Fresh Fruits" data-price="2.99" data-image="fresh-fruits.jpg">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="/Website/Organic vagetables.jfif" class="card-img-top" alt="Vegetables">
+            <div class="card-body">
+              <h5 class="card-title">Organic Vegetables</h5>
+              <p class="card-text">Clean and chemical-free produce.</p>
+              <input type="number" class="form-control mb-2 quantity-input" value="1" min="1" />
+              <button class="btn btn-success add-to-cart" data-id="1" data-name="Fresh Fruits" data-price="2.99" data-image="fresh-fruits.jpg">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="/Website/Dairy products.jfif" class="card-img-top" alt="Dairy Products">
+            <div class="card-body">
+              <h5 class="card-title">Dairy Products</h5>
+              <p class="card-text">Milk, yogurt, and cheese from trusted farms.</p>
+              <input type="number" class="form-control mb-2 quantity-input" value="1" min="1" />
+              <button class="btn btn-success add-to-cart" data-id="1" data-name="Fresh Fruits" data-price="2.99" data-image="fresh-fruits.jpg">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="/Website/Wheat bread.jfif" class="card-img-top" alt="Bread">
+            <div class="card-body">
+              <h5 class="card-title">Whole Wheat Bread</h5>
+              <p class="card-text">Baked daily for ultimate freshness.</p>
+              <input type="number" class="form-control mb-2 quantity-input" value="1" min="1" />
+              <button class="btn btn-success add-to-cart" data-id="1" data-name="Fresh Fruits" data-price="2.99" data-image="fresh-fruits.jpg">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="/Website/Organic eggs.jfif" class="card-img-top" alt="Eggs">
+            <div class="card-body">
+              <h5 class="card-title">Organic Eggs</h5>
+              <p class="card-text">Farm-fresh, hormone-free eggs.</p>
+              <input type="number" class="form-control mb-2 quantity-input" value="1" min="1" />
+              <button class="btn btn-success add-to-cart" data-id="1" data-name="Fresh Fruits" data-price="2.99" data-image="fresh-fruits.jpg">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 6 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="/Website/Raw Honey.jfif" class="card-img-top" alt="Honey">
+            <div class="card-body">
+              <h5 class="card-title">Raw Honey</h5>
+              <p class="card-text">100% natural, straight from hives.</p>
+              <input type="number" class="form-control mb-2 quantity-input" value="1" min="1" />
+              <button class="btn btn-success add-to-cart" data-id="1" data-name="Fresh Fruits" data-price="2.99" data-image="fresh-fruits.jpg">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 7 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="/Website/Basmati Rice.jfif" class="card-img-top" alt="Rice">
+            <div class="card-body">
+              <h5 class="card-title">Basmati Rice</h5>
+              <p class="card-text">Premium aged long grain rice.</p>
+              <input type="number" class="form-control mb-2 quantity-input" value="1" min="1" />
+              <button class="btn btn-success add-to-cart" data-id="1" data-name="Fresh Fruits" data-price="2.99" data-image="fresh-fruits.jpg">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 8 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="/Website/Green Tea.jfif" class="card-img-top" alt="Tea">
+            <div class="card-body">
+              <h5 class="card-title">Green Tea</h5>
+              <p class="card-text">Antioxidant-rich organic green tea.</p>
+              <input type="number" class="form-control mb-2 quantity-input" value="1" min="1" />
+              <button class="btn btn-success add-to-cart" data-id="1" data-name="Fresh Fruits" data-price="2.99" data-image="fresh-fruits.jpg">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 9 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="/Website/Sunflower oli.jfif" class="card-img-top" alt="Cooking Oil">
+            <div class="card-body">
+              <h5 class="card-title">Sunflower Oil</h5>
+              <p class="card-text">Heart-healthy, cholesterol-free cooking oil.</p>
+              <input type="number" class="form-control mb-2 quantity-input" value="1" min="1" />
+              <button class="btn btn-success add-to-cart" data-id="1" data-name="Fresh Fruits" data-price="2.99" data-image="fresh-fruits.jpg">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 10 -->
+        <div class="col-md-4">
+          <div class="card h-100 shadow-sm">
+            <img src="/Website/Mixed spices.jfif" class="card-img-top" alt="Spices">
+            <div class="card-body">
+              <h5 class="card-title">Mixed Spices</h5>
+              <p class="card-text">Aromatic and flavorful cooking spice mix.</p>
+              <input type="number" class="form-control mb-2 quantity-input" value="1" min="1" />
+              <button class="btn btn-success add-to-cart" data-id="1" data-name="Fresh Fruits" data-price="2.99" data-image="fresh-fruits.jpg">Add to Cart</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-3 mt-auto">
+      &copy; 2025 FreshMart. All rights reserved.
+    </footer>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Add to Cart Script (MUST match exact folder and file name) -->
+<script src="scripts/Add_To_Cart.js"></script>
+  </body>
+</html>
