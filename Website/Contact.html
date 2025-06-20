@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>FreshMart | Contact</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+</head>
+<body>
+  
+  <div class="wrapper d-flex flex-column min-vh-100">
+  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-success" href="/Website/index.html">FreshMart</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="/Website/index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="/Website/Product_List.html">Products</a></li>
+        <li class="nav-item"><a class="nav-link" href="/Website/About.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="/Website/Contact.html">Contact</a></li>
+        <li class="nav-item"><a class="nav-link" href="/Website/Cart.html">Cart</a></li>
+        <li class="nav-item"><a class="nav-link text-danger" href="/Website/index.html">Logout</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+  <section class="contact py-5">
+    <div class="container">
+      <h2 class="text-center fw-bold mb-4">Contact Us</h2>
+      
+      <form action="https://formsubmit.co/jawadulislam352@gmail.com" method="POST" class="needs-validation" novalidate>
+        <div class="mb-3">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="name" name="name" required />
+        </div>
+
+        <div class="mb-3">
+            <label for="email" class="form-label">Your Email</label>
+            <input type="email" class="form-control" id="email" name="email" required />
+        </div>
+
+        <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+        </div>
+
+            <!-- Hide CAPTCHA and redirect -->
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_next" value="thankyou.html" />
+            <button type="submit" class="btn btn-success">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="bg-dark text-white text-center py-3 mt-auto">
+      &copy; 2025 FreshMart. All rights reserved.
+    </footer>
+  <script>
+  const form = document.querySelector("form");
+  form.addEventListener("submit", () => {
+    alert("Details submitted successfully!");
+  });
+</script>
+</body>
+</html>
